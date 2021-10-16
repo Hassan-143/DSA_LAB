@@ -1,22 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[10]:
-
-
-
 openl=["(","[","{"] #initializing list for open prenthesis
 closel=[")","]","}"]#initializing list for close prenthesis
 #defining function to check string
@@ -47,10 +28,3 @@ string = "))"
 print(string,"---", check(string))
 string = "[a+b]*(x+2y*{gg+kk})"
 print(string,"---", check(string))
-
-
-# In[ ]:
-
-
-
-
